@@ -1,0 +1,50 @@
+body{
+    background-color:#03294e;
+}
+
+.title{
+    display: grid;
+    background-color:#05386B;
+    background: url("Images/mic.jpg") no-repeat center fixed;
+    height: 500px;
+    font-size: 5vw;  
+}
+
+h1{
+    font-family: Reggae One;
+    color: coral;
+    margin: 20px;
+    border-bottom: solid black;
+}
+
+.openmic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.openmic img{
+
+    height: 400px;
+    width: 400px;
+    margin:20px;
+}
+
+
+
+@media(max-width: 600px){
+    .title{
+        display: grid;
+        padding-top:30%;
+        background-image:url("Images/mic.jpg") no-repeat center;
+        height: 600px;  
+    }
+
+    .openmic img{
+        height: fit-content;
+        width: fit-content;
+
+    }
+} 
