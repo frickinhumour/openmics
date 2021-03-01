@@ -68,8 +68,9 @@ h1,h2{
     }
 
     .openmic img{
-        height: fit-content;
-        width: fit-content;
+        height: 200px;
+        width: 200px;
+        margin:5px;
 
     }
 } 
