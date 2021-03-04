@@ -2,6 +2,11 @@ body{
     background-color:#03294e;
 }
 
+.caret{
+background-color: #03294e;
+border:solid 1px;
+
+}
 .title{
     display: grid;
     background-color:#05386B;
