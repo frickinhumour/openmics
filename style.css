@@ -2,11 +2,7 @@ body{
     background-color:#03294e;
 }
 
-.caret{
-background-color: #03294e;
-border:solid 1px;
 
-}
 .title{
     display: grid;
     background-color:#05386B;
@@ -22,6 +18,11 @@ h1,h2{
     border-bottom: solid black;
 }
 
+.caret{
+    background-color: #03294e;
+    border:solid 1px;
+    
+    }
 .openmic{
     display: flex;
     flex-wrap: wrap;
