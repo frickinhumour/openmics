@@ -2,9 +2,6 @@ body{
     background-color:#03294e;
 }
 
-.navbar{
-    display: flex;
-}
 .title{
     display: grid;
     background-color:#05386B;
@@ -69,8 +66,9 @@ h1,h2{
         background-image:url("Images/mic.jpg") no-repeat center;
         height: 600px;
         margin-right:0;
-        
+
     }
+    .topnav.responsive {position: relative;}
 
     .openmic img{
         height: 200px;
